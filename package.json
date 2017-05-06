@@ -1,0 +1,33 @@
+{
+  "name": "akrenis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.1.6",
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ftp": "^1.1.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-less": "^3.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "gulp-zip": "^3.2.0",
+    "imagemin-jpegtran": "^5.0.2"
+  },
+  "dependencies": {}
+}

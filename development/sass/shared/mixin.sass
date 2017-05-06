@@ -1,0 +1,53 @@
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=transition($transition...)
+  transition: $transition  
+  -webkit-transition: $transition  
+  moz-transition: $transition  
+  o-transition: $transition  
+  ms-transition: $transition  
+
+=box-shadow($shadow)
+    box-shadow: $shadow
+    -webkit-box-shadow: $shadow
+    -moz-box-shadow: $shadow
+    -o-box-shadow: $shadow
+    -ms-box-shadow: $shadow
+
+=transform($tansform)
+	-moz-transform: $tansform	
+	transform: $tansform
+	-webkit-transform: $tansform
+	-ms-transform: $tansform
+
+// scale
+=scale($scale...) 
+	+transform(scale($scale))
+
+// rotate
+=rotate($rotate...) 
+	+transform(rotate($rotate))
+
+=filter($filter...)
+  filter: $filter
+  -webkit-filter: $filter
+  -ms-filter: $filter
+
+=appearance($appearance:none)
+	appearance: $appearance
+	-webkit-appearance: $appearance
+	-ms-appearance: $appearance
+	-moz-appearance: $appearance
+
+=border-radius($radius: 0)
+  -webkit-border-radius: $radius
+  border-radius: $radius
+
+=box-sizing($sizing: border-box)
+  -webkit-box-sizing: $sizing
+  -moz-box-sizing: $sizing
+  box-sizing: $sizing

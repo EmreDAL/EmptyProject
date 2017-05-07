@@ -3,5 +3,23 @@
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": ""
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.8.3",
+    "font-awesome": "^4.6.3",
+    "animate.css": "^3.5.2",
+    "flexiblegs-css": "^5.5.3",
+    "isotope": "^3.0.1",
+    "slick-carousel": "^1.6.0",
+    "magnific-popup": "^1.1.0"
+  },
+  "private": true
 }

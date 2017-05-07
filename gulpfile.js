@@ -36,11 +36,11 @@ const appFolder = "./app/",
   serverPort = 4545;
 
 const ftpInFormation ={
-  host: "207.154.204.212",
+  host: "*",
   port: 21,
-  user: "enessefa",
-  pass: "KAbana343794",
-  remotePath: "/public_html/akrenis.com"
+  user: "*",
+  pass: "*",
+  remotePath: "*"
 };
 
 gulp.task('publish', function () {
